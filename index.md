@@ -2,7 +2,7 @@
 
 <head>
   <meta charset="UTF-8">
-  <title>Side-saddle scrollytelling with position sticky and enterview</title>
+  <title>Side-saddle scrollytelling with position sticky and enterview, testing side bar format</title>
   
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/normalize/5.0.0/normalize.min.css">
 
