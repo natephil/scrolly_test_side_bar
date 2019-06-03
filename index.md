@@ -1,87 +1,83 @@
-## My Portfolio
+<!DOCTYPE html>
+<html lang="en" >
 
----
-
-### Projects
-
-<a href="https://natephil.github.io/sotu_syntactic_complexity/">Syntactic Complexity</a>
-<img src="images/dummy_thumbnail.jpg?raw=true"/>
-
----
-<a href="https://natephil.github.io/scrolly_test/">Test Scrolly</a>
-<img src="images/dummy_thumbnail.jpg?raw=true"/>
-
----
-[Project 3 Title](http://example.com/)
-<img src="images/dummy_thumbnail.jpg?raw=true"/>
-
----
-
-### Smaller Projects
-
-- [Project 1 Title](http://example.com/)
-- [Project 2 Title](http://example.com/)
-- [Project 3 Title](http://example.com/)
-- [Project 4 Title](http://example.com/)
-- [Project 5 Title](http://example.com/)
-
----
----
-### Contact
-
-<html>
 <head>
-<meta name="viewport" content="width=device-width, initial-scale=1">
-<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
-<!-- <link rel="stylesheet" type="text/css" href="css/style.css"> -->
-<style type="text/css">
-  .fa {
-  padding: 20px;
-  font-size: 30px;
-  width: 30px;
-  text-align: center;
-  text-decoration: none;
-  margin: 5px 2px;
-  border-radius: 50%;
-}
+  <meta charset="UTF-8">
+  <title>Side-saddle scrollytelling with position sticky and enterview</title>
+  
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/normalize/5.0.0/normalize.min.css">
 
-.fa:hover {
-    opacity: 0.5;
-}
+  
+      <link rel="stylesheet" href="css/style.css">
 
-.fa-twitter {
-  color: #1DA1F2;
-}
-
-.fa-linkedin-square {
-  color: #007bb5;
-}
-.fa-github {
-  color: #211f1f;
-}
-.fa-envelope {
-  color: #211f1f;
-}
-</style>
+  
 </head>
+
 <body>
 
-<!-- Add font awesome icons -->
-<a href="https://github.com/natephil" target="_blank" class="fa fa-github fa-10x"></a>
-<a href="https://www.linkedin.com/in/nathan-cahn-900b63a1/" target="_blank" class="fa fa-linkedin-square"></a>
-<a href="mailto:natephil93@gmail.com?Subject=Hello%20again" target="_top" class="fa fa-envelope"></a>
-<a href="https://twitter.com/cahn_nathan" target="_blank" class="fa fa-twitter"></a>
+<!--   <section class='filler'>
+  <p>
+    <h1>Welcome!</h1>
+  </p>
+</section> -->
+<!-- 
+<input type="button" value="Go Back From Whence You Came!" onclick="history.back(-1)" />
+<input type="button" value="back to main page" onclick="https://natephil.github.io/" /> -->
+
+<form action="https://natephil.github.io/">
+    <input type="submit" value="Back to homepage" />
+</form>
 
 
+<section id='scrolly-side'>
+  
+  <div class='scrolly'>
+    
+    <!--  step text   -->
+	  <article>
+      <div class='step' data-width='10%' data-index='0'>
+          <p>Bar is 10%</p>
+      </div>
+      <div class='step' data-width='90%' data-index='1'>
+         <p>Bar is 90%</p>
+      </div>
+      <div class='step' data-width='50%' data-index='2'>
+        <p>Bar is 50%</p>
+      </div>
+      <div class='step' data-width='75%' data-index='3'>
+        <p>Bar is 75%</p>
+      </div>
+	  </article>
+    
+     <!--  sticky graphic   -->
+	  <figure class='sticky'>
+		  <div class='bar-outer'>
+			  <div class='bar-inner'></div>
+  		</div>
+  	</figure>
+    
+  </div>
+  
+</section>
 
-      
+<!-- <section class='filler'>
+  <p>
+    End
+  </p>
+</section> -->
+  <script src='https://unpkg.com/d3@5.4.0/dist/d3.min.js'></script>
+<script src='https://unpkg.com/enter-view@1.0.0/enter-view.min.js'></script>
+<script src='https://unpkg.com/stickyfilljs@2.0.5/dist/stickyfill.js'></script>
+
+  
+
+    <script  src="js/index.js"></script>
+
+<footer>
+  The above graph was made by Nathan Cahn<br>
+  &#x1F34C;
+</footer>
+
 </body>
-</html> 
 
-
-
-
-
----
-<!-- <p style="font-size:11px">Page template forked from <a href="https://github.com/evanca/quick-portfolio">evanca</a></p> -->
-<!-- Remove above link if you don't want to attibute -->
+</html>
