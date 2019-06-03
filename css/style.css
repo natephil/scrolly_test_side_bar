@@ -139,7 +139,7 @@ a:hover small {
 }
 
 @media (max-width: 420px) {
-  footer_banana {
+  footer {
     font-size: 9pt;
   }
 }
