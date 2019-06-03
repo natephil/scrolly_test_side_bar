@@ -60,7 +60,7 @@
 
 
 /*Added a footer*/
-footer_banana {
+footer {
   position: sticky;
   position: -webkit-sticky;
   bottom: 0;
