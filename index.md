@@ -55,10 +55,10 @@
 <script src='https://unpkg.com/stickyfilljs@2.0.5/dist/stickyfill.js'></script>
 <script src="js/index.js"></script>
 
-<footer>
+<footer_banana>
   The above graph was made by Nathan Cahn<br>
   &#x1F34C;
-</footer>
+</footer_banana>
 
 </body>
 
