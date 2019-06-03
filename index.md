@@ -14,15 +14,6 @@
 
 <body>
 
-<!--   <section class='filler'>
-  <p>
-    <h1>Welcome!</h1>
-  </p>
-</section> -->
-<!-- 
-<input type="button" value="Go Back From Whence You Came!" onclick="history.back(-1)" />
-<input type="button" value="back to main page" onclick="https://natephil.github.io/" /> -->
-
 <form action="https://natephil.github.io/">
     <input type="submit" value="Back to homepage" />
 </form>
@@ -59,18 +50,10 @@
   
 </section>
 
-<!-- <section class='filler'>
-  <p>
-    End
-  </p>
-</section> -->
-  <script src='https://unpkg.com/d3@5.4.0/dist/d3.min.js'></script>
+<script src='https://unpkg.com/d3@5.4.0/dist/d3.min.js'></script>
 <script src='https://unpkg.com/enter-view@1.0.0/enter-view.min.js'></script>
 <script src='https://unpkg.com/stickyfilljs@2.0.5/dist/stickyfill.js'></script>
-
-  
-
-    <script  src="js/index.js"></script>
+<script src="js/index.js"></script>
 
 <footer>
   The above graph was made by Nathan Cahn<br>
