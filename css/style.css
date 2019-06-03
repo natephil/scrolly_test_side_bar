@@ -60,14 +60,13 @@
 
 
 /*Added a footer*/
-footer {
+footer_banana {
   position: sticky;
   position: -webkit-sticky;
   bottom: 0;
   z-index: -1;
   height: 50px;
-/*   background-color: dodgerblue; */
-  background-color: black;
+  background-color: dodgerblue;
   color: white;
   text-shadow: 2px 2px black;
   padding: 5px 0;
@@ -140,7 +139,7 @@ a:hover small {
 }
 
 @media (max-width: 420px) {
-  footer {
+  footer_banana {
     font-size: 9pt;
   }
 }
